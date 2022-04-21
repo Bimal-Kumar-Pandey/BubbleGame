@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#circle{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bubbles{
+    height: 85%;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#bubble:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(10, 85, 160);
+
+}
+#top{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(90, 221, 90); 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;    
+}
+.sc{
+    display: flex;
+    align-items: center; 
+}
+.box{
+padding: 10px;
+background-color: #fff;
+border-radius: 5px;
+}
+.txt{
+    font-family: "Gilroy";
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+#btm{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+#bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#btm h1{
+    font-size: 80px;
+    color: red;
+    font-family:sans-serif;
+
+}
